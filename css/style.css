@@ -251,12 +251,122 @@ h2{
 .my-education{
     background-color: var(--background-color);
     width: 994px;
-    height: 847px;
+    height: 850px;
     margin-left: 63px;
     border-radius: 29px;
     padding: 29px;
-    gap: 10px;
     margin-top: 48px;
+}
+.my-education .edu{
+    font-family: var(--main-font);
+    font-size: 33px;
+    line-height: 150%;
+    vertical-align: middle;
+    letter-spacing: 0;
+    margin-top: 0px;
+    margin-left: 23px;
+    padding-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.codespace{
+    display: flex;
+    background-color: var(--border-color);
+    border-radius: 29px;
+    width: 936px;
+    height: 220px;
+    margin-top: 20px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-bottom: 20px;
+}
+.about{
+    margin: 0;
+}
+ul{
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+    font-size: 19px;
+    line-height: 150%;
+    font-weight: 400;
+}
+.recnt{
+    font-family: var(--main-font);
+    color:#FFFFFF;
+    font-size: 19px;
+    line-height: 150%;
+    font-weight: 400;
+    width: 574px;
+}
+.school-name-rcnt{
+    font-family: var(--main-font);
+    color:#FFFFFF;
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 500;
+    vertical-align: middle;
+    letter-spacing: 0;
+}
+.school-date{
+    font-family: var(--main-font);
+    font-weight: 500;
+    line-height: ;
+    font-size: 19px;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+#school-date{
+    font-family: var(--main-font);
+    color:#FFFFFF;
+    font-weight: 500;
+    line-height: ;
+    font-size: 19px;
+    vertical-align: middle;   
+}
+#school-duration-subj{
+    font-family: var(--main-font);
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 19px;
+    vertical-align: middle; 
+}
+
+.school-duration{
+    font-family: var(--main-font);
+    font-weight: 400;
+    line-height: ;
+    font-size: 19px;
+    vertical-align: middle;
+    margin: 0;
+}
+.school-name{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 500;
+    vertical-align: middle;
+    letter-spacing: 0;
+    margin: 0;
+}
+.uct{
+    display: flex;
+    height: 220px;
+    background-color: var(--secondary-background-color);
+    border-radius: 29px;
+    margin-bottom: 20px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+.hudson-park{
+    display: flex;
+    background-color: var(--secondary-background-color);
+    border-radius: 29px;
+    height: 192px;
+    margin-bottom: 23px;
 }
 .tools{
     background-color: var(--background-color);
