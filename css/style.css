@@ -85,7 +85,8 @@ h2{
     letter-spacing: 0;
     font-weight: 500;
     padding-left: 27px;
-    padding-top: 51px;
+    padding-top: 0;
+    margin: 0;
 }
 .begner{
     font-family: var(--main-font);
@@ -456,8 +457,18 @@ ul{
     height: 200px;
 }
 .experience{
+    background-color: var(--secondary-background-color);
+  display: inline-flex;
+  border-radius: 29px;
+  height: 145px;
+  width: 1230px;
+  padding-left: 25px;
+}
+.group-4{
+    display:flex;
+    flex-direction: column;
     background-color: var(--background-color);
-    width: 1316px;
+    width: 1280px;
     height: 640px;
     border-radius: 29px;
     margin-left: 63px;
@@ -467,6 +478,38 @@ ul{
     padding-left: 27px;
     gap: 30px;
 }
+.experience-recnt{
+    display: inline-flex;
+    width: 1230px;
+    background-color: var(--border-color);
+    border-radius: 29px;
+    padding-left:25px ;
+}
+.date{
+    color: var(--background-color);
+    font-family: var(--main-font);
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 150%;
+    vertical-align: middle;
+}
+.bkstore{
+    font-family: var(--main-font);
+    color: var(--background-color);
+    line-height: 150%;
+    font-size: 24px;
+    vertical-align: middle;
+    font-weight: 500;
+}
+.reader{
+    font-family: var(--main-font);
+    color: var(--background-color);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 150%;
+    
+}
+
 footer{
     background-color: aqua;
 }
