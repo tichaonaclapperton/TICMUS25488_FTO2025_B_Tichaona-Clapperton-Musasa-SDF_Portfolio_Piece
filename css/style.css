@@ -18,6 +18,7 @@ body{
     flex-direction: column;
     background-image: url(/SDFPP/TICMUS25488_FTO2025_B_Tichaona-Clapperton-Musasa-SDF_Portfolio_Piece/images/background.png);
     width: 1440px;
+    height: 3500px;
     border: 1px solid blue;
     margin-left: 30%; 
 }
@@ -248,14 +249,19 @@ h2{
     
 }
 
+.group-3{
+    display: flex;
+}
+
 .my-education{
     background-color: var(--background-color);
-    width: 994px;
+    width: 950px;
     height: 850px;
     margin-left: 63px;
     border-radius: 29px;
     padding: 29px;
     margin-top: 48px;
+    margin-bottom: 48px;
 }
 .my-education .edu{
     font-family: var(--main-font);
@@ -273,9 +279,9 @@ h2{
     display: flex;
     background-color: var(--border-color);
     border-radius: 29px;
-    width: 936px;
+    width: 900px;
     height: 220px;
-    margin-top: 20px;
+    margin-top: 0;
     padding-top: 27px;
     padding-bottom: 27px;
     padding-left: 21px;
@@ -312,7 +318,6 @@ ul{
 .school-date{
     font-family: var(--main-font);
     font-weight: 500;
-    line-height: ;
     font-size: 19px;
     vertical-align: middle;
     margin-bottom: 0;
@@ -321,7 +326,6 @@ ul{
     font-family: var(--main-font);
     color:#FFFFFF;
     font-weight: 500;
-    line-height: ;
     font-size: 19px;
     vertical-align: middle;   
 }
@@ -336,7 +340,6 @@ ul{
 .school-duration{
     font-family: var(--main-font);
     font-weight: 400;
-    line-height: ;
     font-size: 19px;
     vertical-align: middle;
     margin: 0;
@@ -367,12 +370,90 @@ ul{
     border-radius: 29px;
     height: 192px;
     margin-bottom: 23px;
+    padding-left: 21px;
+    padding-top: 27px;
+    padding-right: 21px;
 }
+
 .tools{
     background-color: var(--background-color);
     width: 300px;
     height: 847;
     border-radius: 29px;
+    margin-top: 48px;
+    margin-left: 21px;
+    margin-bottom: 48px;
+}
+#tools{
+    font-size: 33px;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+    padding-top: 31px;
+}
+.tools p{
+    
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+ div .tools span{
+    border-radius: 19px;
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #000000;
+    color: antiquewhite;
+    padding: 5px 15px;
+    margin-top: 0;
+    
+ }
+.lunguages{
+    background-color: var(--secondary-background-color);
+    border-radius: 14px;
+    margin-bottom: 29px;
+    margin-left: 29px;
+    margin-right: 29px;
+
+
+}
+.lunguages img{
+    height: 41px;
+    width: 41px;
+    margin: 0;
+    padding-left: 41px;
+    padding-bottom: 41px;
+}
+.design img{
+    height: 41px;
+    width: 41px;
+    margin: 0;
+    padding-left: 29px;
+    margin-right: 29px;
+    padding-bottom: 31px;
+}
+.design{
+    background-color: var(--secondary-background-color);
+    border-radius: 14px;
+    margin-left: 29px;
+    margin-right: 29px;
+    margin-bottom: 29px;
+}
+.second-tools img{
+    height: 41px;
+    width: 41px;
+    margin: 0;
+    padding-left: 41px;
+    padding-bottom: 41px;
+}
+.second-tools{
+    background-color: var(--secondary-background-color);
+    border-radius: 14px;
+    margin-right: 29px;
+    margin-left: 29px;
+    margin-bottom: 29px;
+    height: 200px;
 }
 .experience{
     background-color: var(--background-color);
@@ -385,5 +466,8 @@ ul{
     padding-bottom: 32px;
     padding-left: 27px;
     gap: 30px;
+}
+footer{
+    background-color: aqua;
 }
 
