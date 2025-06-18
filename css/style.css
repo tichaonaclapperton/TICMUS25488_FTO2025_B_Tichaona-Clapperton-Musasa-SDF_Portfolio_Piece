@@ -1,14 +1,276 @@
-html{
+:root{
+    --main-font: Poppins;
+    --background-color:#FFFFFF;
+    --main-font-color: #000000;
+    --border-color: #4A8B70;
+    --secondary-background-color:#E7F0EC;
+}
+body{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    place-items: center;
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
     background-image: url(/SDFPP/TICMUS25488_FTO2025_B_Tichaona-Clapperton-Musasa-SDF_Portfolio_Piece/images/background.png);
+    width: 1440px;
+    border: 1px solid blue;
+    margin-left: 30%; 
+}
+html{
+   
+    margin: 0;
+    width: 1444px;
+}
+
+.profile{
+    
+    display: flex;
+    width: 1321px;
+     
+}
+.my-infor{
+    color: #5C5C5C;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 151%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    padding-left: 69px;
+    padding-right: 69px;
+    padding-top: 10px;
+    margin: 0;
+    
+}
+
+.content{
+    height: 300px;
+    background-color:var(--background-color);
+    border-radius: 29px;
+    margin-top: 63px;
+    margin-left:59px;
+    width: 994px;
 }
 img{
     width: 300px;
     height: 300px;
     margin-top: 63px;
+    border-radius: 30px;
     margin-left: 59px;
+}
+
+h1{
+    color: var(--main-font-color);
+    font-family: var(--main-font);
+    font-size: 32px;
+    line-height: 104%;
+    vertical-align: middle;
+    font-weight: 600;
+    padding-left: 69px;
+    margin-top: 59px;
+    margin-bottom: 0;
+}
+h2{
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+    font-size: 33px;
+    line-height: 150%;
+    vertical-align: middle;
+    letter-spacing: 0;
+    font-weight: 500;
+    padding-left: 27px;
+    padding-top: 51px;
+}
+.begner{
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+    font-size: 24px;
+    line-height: 150%;
+    vertical-align: middle;
+    margin-left: 27px;
+}
+.prof-group{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 509px;
+    height: 180px;
+    margin-left: 27px;
+}
+.lung-stats{
+    width:141px;
+    height:169px;
+     
+}
+.lung-stats p{
+    font-family: var(--main-font);
+    font-size: 24px;
+    font-weight:500;
+    line-height: 104%;
+   
+   margin-top: 0;
+}
+.levelLenguage{
+    display: grid;
+    width: 321px;
+    height: 179px;
+    gap: 24px;
+    margin-left: 20px;
+}
+
+.js-stats{
+    background-color: var(--border-color);
+    width: 317px;
+    height: 26px;
+    border-radius: 8px;
+}
+.react-stats{
+    background-color: var(--border-color);
+    width: 232px;
+    height: 26px;
+    border-radius: 8px;
+}
+.node-stats{
+    background-color: var(--border-color);
+    width: 113px;
+    height: 26px;
+    border-radius: 8px;
+}
+.css-stats{
+    background-color: var(--border-color);
+    width: 183px;
+    height: 26px;
+    border-radius: 8px;
+}
+.group-2{
+    display: flex
+}
+
+.proficience{
+    background-color: var(--background-color);
+    width: 564px;
+    height: 428px;
+    margin-top: 48px;
+    margin-left: 63px;
     border-radius: 30px;
 }
-/* .lunguages{
-    width: 5px;
-    height: 5px;
-} */
+.skills{
+    background-color: var(--background-color);
+    width: 706px;
+    height: 429px;
+    margin-top: 48px;
+    margin-left: 63px;
+    border-radius: 29px;
+    margin-right: 63px;
+}
+.skills h2{
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+.group-skills{
+    width: 672px;
+    height: 279px;
+    line-height: 150%;
+    padding-left: 30px;
+    
+}
+.group-skills p{
+    display: inline-block; 
+    font-size: 24px;
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+    vertical-align: middle;
+    margin-bottom: 9px;
+    margin-top: 9x;
+    background-color: #4A8B7021;
+    border-radius: 98px;
+    padding-left:24px;
+    padding-right: 24px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 9px;
+    
+}  
+
+.my-projects{
+   
+    background-color: var(--background-color);
+    width: 1318px;
+    height: 755px;
+    border-radius: 29px;
+    margin-left: 63px;
+    margin-top: 48px;
+}
+.group-projects{
+    display: grid;
+    grid-template-columns: repeat(4,272px);
+    justify-content: center;
+    border-radius: 29px;
+    gap: 49px;
+    align-items: center;
+}
+.project{
+    width: 272px;
+    height: 581px;
+    border-radius: 29px;
+    background-color: var(--secondary-background-color);
+    margin-bottom: 22px;
+}
+.year{
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+    font-size: 24px;
+    vertical-align: middle;
+    line-height: 150%;
+    padding-left: 19px;
+    padding-top: 21px;
+    line-height: 0;
+}
+.brief{
+   
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+    font-size: 19px;
+    font-weight: bold;
+    padding-left: 19px;
+}
+.prjct-infor{
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+    font-size: 19px;
+    background-color: aqua;
+}
+
+.my-education{
+    background-color: var(--background-color);
+    width: 994px;
+    height: 847px;
+    margin-left: 63px;
+    border-radius: 29px;
+    padding: 29px;
+    gap: 10px;
+    margin-top: 48px;
+}
+.tools{
+    background-color: var(--background-color);
+    width: 300px;
+    height: 847;
+    border-radius: 29px;
+}
+.experience{
+    background-color: var(--background-color);
+    width: 1316px;
+    height: 640px;
+    border-radius: 29px;
+    margin-left: 63px;
+    padding-top: 31px;
+    padding-right: 27px;
+    padding-bottom: 32px;
+    padding-left: 27px;
+    gap: 30px;
+}
+
