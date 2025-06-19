@@ -18,7 +18,7 @@ body{
     flex-direction: column;
     background-image: url(/SDFPP/TICMUS25488_FTO2025_B_Tichaona-Clapperton-Musasa-SDF_Portfolio_Piece/images/background.png);
     width: 1440px;
-    height: 3500px;
+    
     border: 1px solid blue;
     margin-left: 30%; 
 }
@@ -224,6 +224,13 @@ h2{
     background-color: var(--secondary-background-color);
     margin-bottom: 22px;
 }
+.heart{
+    color: #DB8566;
+    width: 27px;
+    height: 22px;
+    padding-left: 120px;
+    font-size: larger;
+}
 .title{
     text-align: center;
     padding-top: 20px;
@@ -393,12 +400,11 @@ ul{
     padding-top: 31px;
 }
 .tools p{
-    
+
     padding-top: 0;
     margin-top: 0;
     text-align: center;
 }
-
  div .tools span{
     border-radius: 19px;
     font-family: var(--main-font);
@@ -416,8 +422,6 @@ ul{
     margin-bottom: 29px;
     margin-left: 29px;
     margin-right: 29px;
-
-
 }
 .lunguages img{
     height: 41px;
@@ -464,6 +468,13 @@ ul{
   width: 1230px;
   padding-left: 25px;
 }
+.most-recnt{
+    background-color: #D76239;
+    margin-left: 30px;
+    border-radius: 29px;
+    padding: 4px 9px;
+}
+
 .group-4{
     display:flex;
     flex-direction: column;
@@ -474,7 +485,7 @@ ul{
     margin-left: 63px;
     padding-top: 31px;
     padding-right: 27px;
-    padding-bottom: 32px;
+    
     padding-left: 27px;
     gap: 30px;
 }
@@ -509,8 +520,44 @@ ul{
     line-height: 150%;
     
 }
-
-footer{
-    background-color: aqua;
+.rols-list li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #E7F0EC;
 }
+
+.footer{
+    background-color: #D76239;
+    width: 1300px;
+    height: 158px;
+    border-radius: 29px;
+    margin-top: 48px;
+    margin-left: 59px;
+    padding: 29px;
+    margin-bottom: 30px;
+}
+.fter{
+    font-family: var(--main-font);
+    color: var(--background-color);
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 150%;
+    vertical-align: middle;
+    margin-top: 0;
+}
+.links{
+    font-family: #DDDDDD;
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 400;
+}
+a{
+    color: #DDDDDD;
+    text-decoration: none;
+}
+a:hover{
+    color: #000000;
+    font-size: 30px;
+}
+
 
