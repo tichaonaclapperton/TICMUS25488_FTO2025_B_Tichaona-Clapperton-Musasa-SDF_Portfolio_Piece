@@ -122,4 +122,4 @@ You're not just building a resume site — you're building confidence, skills, a
 **You’ve got this. Let’s go! 🚀**
 
 ## Here is the link of my project
-[View my portfolio piece](https://veed.cello.so/J3yYVgaz0eC)
+[View my portfolio piece](https://www.veed.io/view/157c425b-b34f-4e6c-9c57-8c74e2ad8837?panel=share)
