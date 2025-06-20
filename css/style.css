@@ -17,12 +17,13 @@ html{
     margin: 0;
 }
 /* mobile view */
-@media(max-width:667px){
+@media (max-width:667px){
     .container{
         background-image: url(/SDFPP/TICMUS25488_FTO2025_B_Tichaona-Clapperton-Musasa-SDF_Portfolio_Piece/images/background.png);
         display: block;
-        border: 3px solid blue;
+        border: 3px solid rgb(69, 69, 85);
         width: 402px;
+        min-width: 400px;
 
         
     }
@@ -38,15 +39,15 @@ html{
         margin-left: 43px;
     }
     .content{
-        height: 137px;
+        height: 120px;
         background-color:var(--background-color);
         border-radius: 12px;
         margin-top: 18px;
-        margin-left:7px;
-        width: 163px;
+        margin-left:15px;
+        width: 153px;
         overflow: hidden;
         word-break: normal;
-        padding-bottom:19 px;
+        padding-bottom:19px;
     }
     h1{
         font-family: var(--main-font);
@@ -138,7 +139,9 @@ html{
         padding-right: 10px;
         padding-top: 0;
         margin-left:12px;
-        
+    }
+    .hidden{
+        display: none;
     }
     .proficience{
         background-color: var(--background-color);
@@ -157,8 +160,10 @@ html{
         margin-top: 15px;
         margin-left: 42px;
         border-radius:12px;
-        
         gap: 16px;
+    }
+    .group-skills{
+        margin-left: 12px;
     }
     .group-skills p{
         display: inline-block; 
@@ -169,15 +174,455 @@ html{
         margin: 3px;
         background-color: #4A8B7021;
         border-radius: 40px;
-        padding: 4px 10px;
-        padding-bottom: 9px;
-        
+        padding-top: 4px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        margin-left: px; 
     }  
+
+    /* The beginning of projects */
+    .my-projects{
+   
+        background-color: var(--background-color);
+        width: 319px;
+        height: 632px;
+        border-radius: 12px;
+        margin-left: 41px;
+        margin-top: 15px;
+    }
+    .first-heart{
+        color: #D76239;
+        width: 27px;
+        height: 22px;
+        padding-left: 90px;
+        font-size: larger;
+    }
+    .heart{
+        display: none;
+        color: #DB8566;
+        width: 27px;
+        height: 22px;
+        padding-left: 120px;
+        font-size: larger;
+    }
+
+    .project-recent{
+        background-color: #4A8B70;
+        border-radius: 12px;
+        width: 140px;
+        height: 267px;
+    }
+    .year-white{
+        font-family: var(--main-font);
+        font-size: 12px;
+        line-height: 150%;
+        font-weight: 500;
+        color: var(--background-color);
+        margin-left: 9px;
+    }
+    .year-port{
+        font-family: var(--main-font);
+        font-size: 12px;
+        line-height: 150%;
+        font-weight: 500;
+        color: var(--background-color);
+        margin-left: 19px;
+    }
+    .project-recent p{
+        font-family: var(--main-font);
+        color: #EBF9F2;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 150%;
+        margin-left: 19px;
+        margin-right: 18px;
+    }
     
+        /* Giving two columns in prject container that are equal  */
+    
+        .group-projects{
+            display: grid;
+            grid-template-columns: repeat(2,139px);
+            justify-content: center;
+            border-radius: 12px;
+            gap: 12px;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 9px;
+        }
+        .project{
+            width: 139px;
+            height: 267px;
+            border-radius: 12px;
+            background-color: var(--secondary-background-color);
+            margin-bottom: 22px;
+            gap: 9px;
+        }
+        .project p{
+            font-family: var(--main-font);
+            color: var(--main-font-color);
+            font-size: 9px;
+            padding-left: 19px;
+            line-height: 150%;
+            padding-right: 18px;
+            word-wrap: normal;
+            font-weight: 400;
+            
+        }
+                /* Education box */
+    
+        .my-education{
+            background-color: var(--background-color);
+            width: 319px;
+            height: 416px;
+            margin-left: 41px;
+            border-radius: 12px;
+            padding: px;
+            margin-top: 15px;
+            margin-bottom: px;
+        }
+        .codespace{
+            display: grid;
+            grid-template-rows: 16px 132px;
+            background-color: var(--border-color);
+            border-radius: 12px;
+            width: 295px;
+            height: 172px;
+            margin-left: 12px;
+            margin-right: 8px;
+        }
+        .codespce-desktop{
+            display: none;
+        }
+        .mst-rcnt-date{
+            font-family: var(--main-font);
+            font-size: 8px;
+            font-weight: 500;
+            color: var(--background-color);
+            justify-content: space-between;
+            margin-top: 12px;
+            margin-left: 12px;
+        }
+        .key-areas{
+            display: grid;
+            grid-template-columns: 124px 147px;
+            margin-left: 8px;
+        }
+        .school-name-rcnt{
+            font-family: var(--main-font);
+            color:#FFFFFF;
+            font-size: 10px;
+            line-height: 150%;
+            font-weight: 500;
+            vertical-align: middle;
+            letter-spacing: 0;
+        }
+        .software{
+            width: 124px;
+            height: 37px;
+        }
+        .recnt{  
+            font-family: var(--main-font);
+            color:#FFFFFF;
+            font-size: 8px;
+            line-height: 150%;
+            font-weight: 400;
+            width: 147px;
+            height: 132px;
+            margin-right: 11px;
+            padding-left: 9px;
+            margin-top: 12px;
+        }
+        .advert{
+            background-color: #D76239;
+            margin-left: 120px;
+            border-radius: 29px;
+            padding: 4px 9px;
+    
+        }
+             /* Chisco high box */
+        .uct{
+            display: flex;
+            width: 295;
+            height: 127px;
+            background-color: var(--secondary-background-color);
+            border-radius: 12px;
+            margin-top: 10px;
+        }
+        
+        .school-date{
+            font-family: var(--main-font);
+            font-weight: 500;
+            font-size: 8px;
+            vertical-align: middle;
+            margin-bottom: 0;
+            margin-left: 12px;
+        }
+        .school-name{
+            font-family: var(--main-font);
+            font-size: 10px;
+            line-height: 150%;
+            font-weight: 500;
+            vertical-align: middle;
+            letter-spacing: 0;
+            margin-left: 12px;
+            margin-bottom: 0;
+        }
+        .school-duration{
+            font-family: var(--main-font);
+            font-size: 8px;
+            margin-left: 8px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .key-areas {
+            font-family: var(--main-font);
+            font-weight: 400;
+            font-size: 8px;
+            vertical-align: middle;
+            line-height: 150;
+            margin: 0;
+        }
+        .cdespce{
+            font-family: var(--main-font);
+            font-size: 8px;
+            font-weight: 400;
+            line-height: 150%;
+            padding-left: 20px;
+        }
+        .hudson-park{
+            display: flex;
+            background-color: var(--secondary-background-color);
+            border-radius: 12px;
+            width: 280;
+            height: 93px;
+            margin-top: 10px;
+            
+        }
+                    /* Tools section */  
+        
+        .tools{
+            display: flex;
+            background-color: var(--background-color);
+            width: 319px;
+            height: 163px;
+            border-radius: 12px;
+            margin-top: 41px;
+            margin-left: 38px;
+        } 
+        /* .tools-heading{
+            font-family: var(--main-font);
+            font-size: 12px;
+            line-height: 150%;
+            font-weight: 500;
+            margin-top: 13px;
+            margin-bottom: 10px;
+            margin-left: px;
+        } */
+        .lunguages{
+            width: 76px;
+            height: 104px;
+            background-color: var(--secondary-background-color);
+            border-radius: 6px;
+            margin-left: 20px;
+            margin-top: 41px;
+        }
+        .lunguages img{
+            height: 17px;
+            width: 17px;
+            margin: 0;
+            padding-left: px;
+            padding-bottom: px;
+        }
+        .design{
+            margin-top: 41px;
+            margin-left: 124px;
+            background-color: var(--secondary-background-color);
+            border-radius: 6px;
+            margin-left: 29px;
+            margin-right: 29px;
+            margin-bottom: 29px;
+            width: 76px;
+            height: 104px;
+        }
+        .design img{
+            height: 17px;
+            width: 17px;
+            margin: 0;
+        }
+        .second-tools{
+            margin-top: 41px;
+            background-color: var(--secondary-background-color);
+            border-radius: 14px;
+            margin-right: 29px;
+            margin-left: 29px;
+            margin-bottom: 29px;
+            height: 107px;
+            width: 76px;
+        }
+        .second-tools img{
+            height: 17px;
+            width: 17px;
+            margin: 0;
+        }
+        div .tools span{
+            border-radius: 19px;
+            font-family: var(--main-font);
+            font-size: 5px;
+            font-weight: 500;
+            background-color: #000000;
+            color: antiquewhite;
+            padding: 2px 6px;
+            margin-top: 0;
+            line-height: 142%;
+         }
+    
+                  /* Experience box */
+    
+         .group-4{
+            display:flex;
+            flex-direction: column;
+            background-color: var(--background-color);
+            width: 319px;
+            height: 487px;
+            border-radius: 12px;
+            margin-left: 41px;
+            margin-top: 15px;
+        }
+        .experience-recnt{
+            display: inline-flex;
+            width: 295px;
+            height: 141px;
+            background-color: var(--border-color);
+            border-radius: 10px;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-top: 15px;
+        }
+        .date{
+            display: inline;
+            color: var(--background-color);
+            font-family: var(--main-font);
+            font-size: 8px;
+            font-weight: 500;
+            line-height: 150%;
+            vertical-align: middle;
+        }
+        .bkstore{
+            font-family: var(--main-font);
+            color: var(--background-color);
+            line-height: 150%;
+            font-size: 10px;
+            vertical-align: middle;
+            font-weight: 500;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        .reader{
+            font-family: var(--main-font);
+            color: var(--background-color);
+            font-weight: 400;
+            font-size: 8px;
+            line-height: 150%;
+            margin-bottom: 0; 
+            margin-top: 0;
+        }
+        .rols-list li{
+            font-size: 8px;
+            margin-top: 8px;
+            margin-bottom: 0px;
+            color: #E7F0EC;
+        }
+        .most{
+            text-align: end;
+            margin-right: 12px;
+            font-family: var(--main-font);
+            font-size: 8px;
+        }
+        #most{
+            background-color: #D76239;
+            border-radius: 59px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+        .job{
+            margin-left: 12px;
+            padding-left: 0;
+        }
+        .experience{
+            background-color: var(--secondary-background-color);
+          display: inline-flex;
+          border-radius: 10px;
+          height: 122px;
+          width: 295px;
+          padding-left: 0px;
+          margin-top: 15px;
+          margin-left: 12px;
+        }
+        .school-date{
+            font-family: var(--main-font);
+            font-weight: 500;
+            font-size: 8px;
+            vertical-align: middle;
+            margin-bottom: 0;
+        }
+        #roles{
+            color:var(--main-font-color);
+            font-family: var(--main-font);
+            font-size: 8px;
+            font-weight: 400;
+            line-height: 150%;
+            padding-left: 12px;
+    
+        }
+    
+             /* Footer section */
+    
+        .footer{
+            background-color: #D76239;
+            width: 325px;
+            height: 89px;
+            border-radius: 12px;
+            margin-top: 20px;
+            margin-left: 42px;
+            padding: 0px;
+            margin-bottom: 30px;
+        }
+        .fter{
+            font-family: var(--main-font);
+            color: var(--background-color);
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 150%;
+            vertical-align: middle;
+            padding-top:10px;
+            padding-left: 12px;
+        }
+        .links{
+            font-family: #DDDDDD;
+            font-size: 10px;
+            line-height: 150%;
+            font-weight: 400;
+            padding-left: 12px;
+            padding-bottom: 10px;
+        }
+        a{
+            color: #DDDDDD;
+            text-decoration: none;
+        } 
+
 }
 
 
-@media (min-width:1200px){
+
+      /* That's the end of mobile view we starting the desktop view lets jump into it */
+       /* Desktop view */
+
+@media (min-width:667px){
     .container{
         display: flex;
         flex-direction: column;
@@ -198,13 +643,19 @@ html{
     border-radius: 29px;
     margin-top: 63px;
     margin-left:59px;
-    width: 994px;
+    width: 1104px;
  }
  .profile{
     
     display: flex;
     width: 1321px;
      
+}
+h1{
+    font-family: var(--main-font);
+    font-size: 36px;
+    margin-left: 69px;
+    line-height: 104%;
 }
 .my-infor{
     color: #5C5C5C;
@@ -214,10 +665,9 @@ html{
     line-height: 151%;
     letter-spacing: 0%;
     vertical-align: middle;
-    padding-left: 69px;
-    padding-right: 69px;
+    padding-left: 99px;
+    padding-right: 130px;
     padding-top: 10px;
-    margin: 0;
     
 }
 h2{
@@ -229,7 +679,7 @@ h2{
     letter-spacing: 0;
     font-weight: 500;
     padding-left: 27px;
-    padding-top: 0;
+    padding-top: 50px;
     margin: 0;
 }
      /* proficiency group */
@@ -240,6 +690,7 @@ h2{
     margin-top: 48px;
     margin-left: 63px;
     border-radius: 30px;
+    
 }    
 .begner{
     font-family: var(--main-font);
@@ -345,6 +796,8 @@ h2{
     margin-left: 9px; 
 }  
 
+     /* The beggining of projects */
+
 .my-projects{
    
     background-color: var(--background-color);
@@ -361,8 +814,38 @@ h2{
     border-radius: 29px;
     gap: 49px;
     align-items: center;
-   
     margin-bottom: 30px;
+    margin-top: 57px;
+}
+.project-recent{
+    background-color: #4A8B70;
+    border-radius: 29px;
+    height: 581px;
+}
+.year-white{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 500;
+    color: var(--background-color);
+    margin-left: 19px;
+}
+.year-port{
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 500;
+    color: var(--background-color);
+    margin-left: 19px;
+}
+.project-recent p{
+    font-family: var(--main-font);
+    color: #EBF9F2;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 19px;
+    margin-right: 18px;
 }
 .project{
     width: 272px;
@@ -370,6 +853,14 @@ h2{
     border-radius: 29px;
     background-color: var(--secondary-background-color);
     margin-bottom: 22px;
+}
+
+.first-heart{
+    color: #D76239;
+    width: 27px;
+    height: 22px;
+    padding-left: 120px;
+    font-size: larger;
 }
 .heart{
     color: #DB8566;
@@ -404,7 +895,9 @@ h2{
     
 }
 
-.group-3{
+        /* The beginning of education section */
+
+.education-group{
     display: flex;
 }
 
@@ -431,7 +924,10 @@ h2{
     margin-bottom: 0;
 }
 .codespace{
-    display: flex;
+    display:none;
+}
+.codespce-desktop{
+    display:flex;
     background-color: var(--border-color);
     border-radius: 29px;
     width: 900px;
@@ -469,6 +965,7 @@ ul{
     font-weight: 500;
     vertical-align: middle;
     letter-spacing: 0;
+    margin: 0;
 }
 .school-date{
     font-family: var(--main-font);
@@ -490,6 +987,22 @@ ul{
     font-weight: 400;
     font-size: 19px;
     vertical-align: middle; 
+    margin: 0;
+}
+.cdespce{
+    color: var(--main-font-color);
+    font-family: var(--main-font);
+    font-weight: 400;
+    line-height: 150%;
+    vertical-align: middle;
+}
+.mst-rcnt-date{
+    margin-top: 12px;
+    font-family: var(--main-font);
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 19px;
+    vertical-align: middle;
 }
 
 .school-duration{
@@ -529,7 +1042,7 @@ ul{
     padding-top: 27px;
     padding-right: 21px;
 }
-
+        /* Tools section */
 .tools{
     background-color: var(--background-color);
     width: 300px;
@@ -539,17 +1052,26 @@ ul{
     margin-left: 21px;
     margin-bottom: 48px;
 }
+.tools-heading{
+    font-family: var(--main-font);
+    font-size: 33px;
+    line-height: 150%;
+    font-weight: 500;
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
 #tools{
     font-size: 33px;
     text-align: center;
     margin-top: 0;
     margin-left: 0;
     padding-top: 31px;
+    
 }
 .tools p{
 
     padding-top: 0;
-    margin-top: 0;
+    margin-top: 20px;
     text-align: center;
 }
  div .tools span{
@@ -561,7 +1083,6 @@ ul{
     color: antiquewhite;
     padding: 5px 15px;
     margin-top: 0;
-    
  }
 .lunguages{
     background-color: var(--secondary-background-color);
@@ -607,14 +1128,7 @@ ul{
     margin-bottom: 29px;
     height: 200px;
 }
-.experience{
-    background-color: var(--secondary-background-color);
-  display: inline-flex;
-  border-radius: 29px;
-  height: 145px;
-  width: 1230px;
-  padding-left: 25px;
-}
+
 .most-recnt{
     background-color: #D76239;
     margin-left: 30px;
@@ -630,11 +1144,21 @@ ul{
     height: 640px;
     border-radius: 29px;
     margin-left: 63px;
-    padding-top: 31px;
+    padding-top: 0px;
     padding-right: 27px;
-    
     padding-left: 27px;
     gap: 30px;
+}
+.experience{
+    background-color: var(--secondary-background-color);
+  display: inline-flex;
+  border-radius: 29px;
+  height: 145px;
+  width: 1230px;
+  padding-left: 25px;
+}
+.advert{
+    display: none;
 }
 .experience-recnt{
     display: inline-flex;
@@ -664,8 +1188,7 @@ ul{
     color: var(--background-color);
     font-weight: 400;
     font-size: 19px;
-    line-height: 150%;
-    
+    line-height: 150%; 
 }
 .rols-list li{
     margin-top: 20px;
