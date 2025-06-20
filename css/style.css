@@ -628,7 +628,7 @@ html{
         flex-direction: column;
         background-image: url(/SDFPP/TICMUS25488_FTO2025_B_Tichaona-Clapperton-Musasa-SDF_Portfolio_Piece/images/background.png);
         
-        border: 1px solid blue; 
+        border: 1px solid rgb(83, 83, 105); 
     }
     img{
         width: 300px;
